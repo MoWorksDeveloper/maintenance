@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Under Maintenance</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f7f9fc;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .container {
+            max-width: 600px;
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #5d6778;
+        }
+        .icon {
+            font-size: 80px;
+            margin-bottom: 30px;
+            color: #3498db;
+        }
+        .progress {
+            height: 10px;
+            background-color: #eee;
+            border-radius: 5px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .progress-bar {
+            height: 100%;
+            width: 75%;
+            background: linear-gradient(to right, #3498db, #2980b9);
+            animation: progress 2s ease-in-out infinite;
+        }
+        @keyframes progress {
+            0% { width: 0%; }
+            100% { width: 75%; }
+        }
+        .contact {
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">🛠️</div>
+        <h1>We're Under Maintenance</h1>
+        <p>We're currently working on making improvements to our website to serve you better. We'll be back online shortly!</p>
+        <div class="progress">
+            <div class="progress-bar"></div>
+        </div>
+        <p class="contact">If you need immediate assistance, please contact us at <a href="mailto:development@moworks.com.au">development@moworks.com.au</a></p>
+    </div>
+</body>
+</html>
